@@ -1,0 +1,12 @@
+database:
+  host: "localhost"
+  port: 5432
+  user: "postgres"
+  password: "956123"
+  dbname: "postgres"
+  sslmode: "disable"
+
+paths:
+  xml_dumps_dir: "/home/rect/Projects/sql_sandbox/dba.stackexchange.com/"
+  output_sql_file: "../filtered_schema.sql"
+  schema_file: "../schema.sql"
